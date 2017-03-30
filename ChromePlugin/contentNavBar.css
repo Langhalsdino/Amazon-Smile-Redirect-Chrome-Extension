@@ -1,0 +1,47 @@
+#smileRedirectExtension {
+    background-color: #000000;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#smileRedirectExtension ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+#smileRedirectExtension .floatLeft li {
+    float: left;
+    display: inline-block;
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+}
+
+#smileRedirectExtension .floatRight li {
+    float: right;
+    display: inline-block;
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    text-decoration: none;
+}
+
+#smileRedirectExtension a {
+    color: #ffffff !important;
+    font-size: 17px;
+}
+
+#smileRedirectExtension .floatRight li:hover {
+    background-color: #545454;
+    text-decoration: none;
+    color: white;
+}
