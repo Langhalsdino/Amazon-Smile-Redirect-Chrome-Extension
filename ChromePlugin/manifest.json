@@ -1,6 +1,6 @@
 {
-    "name": "Amazon.de smile redirect plugin",
-    "description": "This plugin redirects amazon.de to smile.amazon.de",
+    "name": "Amazon.* smile redirect plugin",
+    "description": "This plugin redirects amazon.* to smile.amazon.*",
     "author": "Langhalsdino",
     "version": "0.5",
     "manifest_version": 2,
