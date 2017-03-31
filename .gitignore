@@ -1,2 +1,3 @@
 ## .zip packaged chrome extension
 *.zip
+*.pem
