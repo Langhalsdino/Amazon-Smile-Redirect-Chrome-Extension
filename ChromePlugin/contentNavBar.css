@@ -1,5 +1,5 @@
 #smileRedirectExtension {
-    background-color: #000000;
+    background-color: #22313F;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -33,15 +33,12 @@
     padding-right: 16px;
     padding-bottom: 14px;
     text-decoration: none;
-}
-
-#smileRedirectExtension a {
-    color: #ffffff !important;
-    font-size: 17px;
+    color: #F89406 !important;
+    font-size: 16px;
 }
 
 #smileRedirectExtension .floatRight li:hover {
-    background-color: #545454;
+    background-color: #67809F;
     text-decoration: none;
     color: white;
 }

@@ -56,7 +56,7 @@ if(document.getElementById('smileRedirectExtension') === null){
                             About\
                         </li>\
                         <li id='redirectToSmilesLiItem'>\
-                            Redirect me!\
+                            Get me smiling!\
                         </li>\
                     </div>\
                 </ul>";

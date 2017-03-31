@@ -1,8 +1,8 @@
 {
     "name": "Amazon.* smile redirect plugin",
-    "description": "This plugin redirects amazon.* to smile.amazon.*",
+    "description": "This plugin suggest to use smile.amazon.* insted of amazon.*",
     "author": "Langhalsdino",
-    "version": "0.5",
+    "version": "1.0",
     "manifest_version": 2,
     "background": {
         "scripts": ["background.js"]
@@ -11,7 +11,9 @@
     "web_accessible_resources": [
         "contentNavBar.css",
         "contentNavBar.html",
-        "contentNavBar.js"
+        "contentNavBar.js",
+        "options.js",
+        "options.css"
     ],
     "permissions": [
         "<all_urls>",
