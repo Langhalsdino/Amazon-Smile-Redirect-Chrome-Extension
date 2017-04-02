@@ -32,7 +32,7 @@ chrome://extensions/
 3. Drag the Chrome extension file into the browser window
 4. Visit amazon and start using the plugin.
 
-## Deployment
+## Development
 
 ### Developer instructions
 
