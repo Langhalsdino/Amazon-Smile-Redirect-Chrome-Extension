@@ -1,6 +1,6 @@
 # Amazon Smile Redirector a extension for Chrome
 
-This chrome extension extends the amazon.* website with a navigation bar, that reminds you to visit smile.amazon.* so you can support your favorite charity. 
+This chrome extension extends the amazon.* website with a navigation bar, that reminds you to visit smile.amazon.* so you can support your favorite charity.
 
 ![Screenshot of the Chrome extension](Images/ImageOfExtension.jpeg?raw=true "Screenshot of the Chrome extension")
 
@@ -13,7 +13,7 @@ Otherwise, you can take a look into the “Developer instructions” and see how
 
 ## User instructions
 
-So, you just want to use this Chrome extension, that is great. 
+So, you just want to use this Chrome extension, that is great.
 If you like the extension, you can star this repository.
 
 ### Prerequisites
@@ -71,3 +71,4 @@ chrome://extensions/
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Logo: Made with http://logomakr.com

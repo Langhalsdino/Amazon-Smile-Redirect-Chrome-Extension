@@ -20,5 +20,8 @@
         "tabs",
         "webRequest",
         "webRequestBlocking"
-    ]
+    ],
+    "icons": {
+        "128": "icon/icon128.png"
+    }
 }
