@@ -20,9 +20,9 @@ If you like the extension, you can star this repository.
 
 The only prerequisite is to have Chrome or Chromium installed :)
 
-### Instalation
+### Installation
 
-A step by step instruction that tells you how to get the extesion running
+A step by step instruction that tells you how to get the extension running.
 
 1. Download the Chrome extension from this repository (File: [ChromePlugin.crx](ChromePlugin.crx))
 2. Visit the Chrome extension settings. Therefore, insert the following address into the adresse field of Chrome.
@@ -43,9 +43,9 @@ Awesome, I like you! I would love to see you forking this repository and contrib
 
 The only prerequisite is to have Chrome or Chromium installed :)
 
-#### Instalation
+#### Installation
 
-A step by step instruction that tells you how to get the development enviroment running.
+A step by step instruction that tells you how to get the development environment running.
 
 1. Clone this repository on to your locale machine
 2. Visit the Chrome extension settings. Therefore, insert the following address into the adresse field of Chrome.
