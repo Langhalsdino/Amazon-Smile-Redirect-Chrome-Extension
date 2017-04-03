@@ -2,6 +2,8 @@
 
 This chrome extension extends the amazon.* website with a navigation bar, that reminds you to visit smile.amazon.* so you can support your favorite charity. 
 
+![Screenshot of the Chrome extension](Images/ImageOfExtension.jpeg?raw=true "Screenshot of the Chrome extension")
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -30,7 +32,7 @@ chrome://extensions/
 3. Drag the Chrome extension file into the browser window
 4. Visit amazon and start using the plugin.
 
-## Deployment
+## Development
 
 ### Developer instructions
 
