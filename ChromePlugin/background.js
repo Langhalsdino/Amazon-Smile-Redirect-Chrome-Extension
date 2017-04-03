@@ -7,22 +7,31 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
         var redirects,
             amazonPattern,
             smilePattern,
+            instantVideoPattern,
             amazon,
-            smile;
+            smile,
+            instantVideo,
+            matchAmazon,
+            matchsmile,
+            matchInstantVideo;
 
         amazon = 'amazon\\.';
         smile = 'smile\\.amazon.';
+        instantVideo = '=home';
 
         // Try to match regex with url
         try {
             amazonPattern = new RegExp(amazon, 'i');
             smilePattern = new RegExp(smile, 'i');
+            instantVideoPattern = new RegExp(instantVideo);
 
             matchAmazon = tab.url.match(amazonPattern);
             matchsmile = !tab.url.match(smilePattern);
+            matchInstantVideo = !tab.url.match(instantVideoPattern);
+            console.log(matchInstantVideo);
 
             // Matched and not redirect activated, therefore add Navigation Bar
-            if (matchAmazon && matchsmile) {
+            if (matchAmazon && matchsmile && matchInstantVideo) {
                 chrome.tabs.insertCSS(tabId, {
                     file: "contentNavBar.css"
                 }, function(returnedValue) {
