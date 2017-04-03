@@ -1,3 +1,4 @@
+![Logo](Images/Logo.jpeg?raw=true "RedirectorLogo")
 # Amazon Smile Redirector a extension for Chrome
 
 This chrome extension extends the amazon.* website with a navigation bar, that reminds you to visit smile.amazon.* so you can support your favorite charity.
