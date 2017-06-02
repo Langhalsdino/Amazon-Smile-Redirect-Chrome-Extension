@@ -13,25 +13,42 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
             instantVideo,
             matchAmazon,
             matchsmile,
-            matchInstantVideo;
+            blackListAmazon;
 
         amazon = 'amazon\\.';
         smile = 'smile\\.amazon.';
-        instantVideo = '=home';
+        var blackList = "(sa-no-redirect=)"
+               + "|(redirect=true)"
+               + "|(redirect.html)"
+               + "|(r.html)"
+               + "|(f.html)"
+               + "|(/gp/dmusic/cloudplayer)"
+               + "|(/gp/photos)"
+               + "|(/gp/wishlist)"
+               + "|(/ap/)"
+               + "|(aws.amazon.com)"
+               + "|(read.amazon.com)"
+               + "|(login.amazon.com)"
+               + "|(payments.amazon.com)"
+               + "|(amazon.com/clouddrive)"
+               + "|(aws.amazon.de)"
+               + "|(read.amazon.de)"
+               + "|(login.amazon.de)"
+               + "|(payments.amazon.de)"
+               + "|(amazon.de/clouddrive)"
+               + "|(http://)";
 
         // Try to match regex with url
         try {
             amazonPattern = new RegExp(amazon, 'i');
             smilePattern = new RegExp(smile, 'i');
-            instantVideoPattern = new RegExp(instantVideo);
 
             matchAmazon = tab.url.match(amazonPattern);
             matchsmile = !tab.url.match(smilePattern);
-            matchInstantVideo = !tab.url.match(instantVideoPattern);
-            console.log(matchInstantVideo);
+            blackListAmazon = !tab.url.match(blackList);
 
             // Matched and not redirect activated, therefore add Navigation Bar
-            if (matchAmazon && matchsmile && matchInstantVideo) {
+            if (matchAmazon && matchsmile && blackListAmazon) {
                 chrome.tabs.insertCSS(tabId, {
                     file: "contentNavBar.css"
                 }, function(returnedValue) {
