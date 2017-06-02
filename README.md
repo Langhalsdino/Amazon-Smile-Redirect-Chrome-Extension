@@ -26,13 +26,9 @@ The only prerequisite is to have Chrome or Chromium installed :)
 
 A step by step instruction that tells you how to get the extension running.
 
-1. Download the Chrome extension from this repository (File: [ChromePlugin.crx](ChromePlugin.crx))
-2. Visit the Chrome extension settings. Therefore, insert the following address into the adresse field of Chrome.
-```
-chrome://extensions/
-```
-3. Drag the Chrome extension file into the browser window
-4. Visit amazon and start using the plugin.
+1. Visit the Google Chrome Webstore [Link](https://chrome.google.com/webstore/detail/amazon-smile-redirect-plu/cipmjgdgkliagpgihnanpfgejnencopo)
+2. Add the Chrome extension to your browser.
+3. Visit amazon and start using the plugin.
 
 ## Development
 
